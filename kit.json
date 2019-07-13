@@ -1,0 +1,20 @@
+{
+"manifestVersion": "0.1.0",
+"message": "Please, continue at https://github.com/zeppelinos/zepkit",
+"files": [".gitignore",
+    "LICENSE",
+    "barebones",
+    "client",
+    "contracts",
+    "kit.json",
+    "migrations",
+    "netlify.toml",
+    "package.json",
+    "solhint.json",
+    "test",
+    "truffle-config.js"],
+"hooks": {
+"post-unpack": ""npm install && cd client && npm install"
+}
+}
+
